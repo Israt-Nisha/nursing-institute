@@ -58,9 +58,9 @@
                       tabindex="0"
                       class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
                       <li><a href="#home" >Home</a></li>
-                      <li><a href="#About">About Us</a></li>
+                      <li><a href="#about">About Us</a></li>
                       <li><a href="#admissions">Admissions</a></li>
-                      <li><a href="#contact">Faculty</a></li>
+                      <li><a href="#programs">Programs</a></li>
                       <li><a href="#contact">Contact Us</a></li>
                      
                     </ul>
@@ -68,11 +68,12 @@
                   <a class="font-extrabold text-3xl text-blue-900"><span class="text-blue-400">Helene</span> Fuld</a>
                 </div>
                 <div class="navbar-end hidden lg:flex text-lg font-semibold">
-                  <ul class="flex items-center space-x-6 p-1">
+                  <ul class="flex items-center space-x-5 p-1">
                     <li><a href="#home" class="default: text-blue-400  hover:underline">Home</a></li>
-                    <li><a href="#About" class="hover:text-blue-400 text-blue-900 hover:underline">About Us</a></li>
+                    <li><a href="#about" class="hover:text-blue-400 text-blue-900 hover:underline">About Us</a></li>
+                    
+                    <li><a href="#programs" class="hover:text-blue-400 text-blue-900 hover:underline">Programs</a></li>
                     <li><a href="#admissions" class="hover:text-blue-400 text-blue-900 hover:underline">Admissions</a></li>
-                    <li><a href="#contact" class="hover:text-blue-400 text-blue-900 hover:underline">Faculty</a></li>
                     <li><a href="#contact" class="hover:text-blue-400 text-blue-900 hover:underline">Contact Us</a></li>
                   </ul>
                 </div>
@@ -98,13 +99,13 @@
     </header>
     <main>
       <!-- About  -->
-       <section class="container mx-auto px-8 lg:px-24 my-16">
-        <div class="flex items-center gap-8">
+       <section id="about" class="container mx-auto px-8 lg:px-24 my-16">
+        <div class="flex flex-col lg:flex-row items-center gap-8">
           <div class="flex-1">
             <img  src="./images/about-us2.jpg" alt="">
           </div>
           <div class="flex-1 ">
-            <h3 class="text-2xl font-bold text-blue-900 "></span>About <span class="text-blue-400">Us</span></h3>
+            <h3 class="text-3xl font-bold text-blue-900 "></span>About <span class="text-blue-400">Us</span></h3>
             <p class="text-gray-400 my-4">At Helene Fuld Collage, we believe that nursing is not just a profession—it’s a calling. We are dedicated to providing an educational environment that nurtures growth, </p>
             <p class="text-gray-400 mb-4">fosters compassion, and equips students with the skills they need to become leaders in healthcare. With a commitment to excellence in clinical training and academic rigor, our programs are designed to prepare graduates for the challenges of modern healthcare delivery.</p>
             <a href="#admissions"><button class="btn bg-blue-600 text-white border-none rounded-none font-bold px-6">Learn More</button></a>
@@ -112,6 +113,81 @@
         </div>
 
        </section>
+
+       <!-- Programs -->
+        <section id="programs"  class="">
+          <div class="container mx-auto px-8 lg:px-24 my-16">
+            <div class="text-center mb-4">
+              <h3 class="text-3xl font-bold text-blue-900 "></span>Our <span class="text-blue-400">Programs</span></h3>
+            </div>
+            <div class="grid grid-rows-1 lg:grid-cols-3 gap-4">
+              <div class="card card-compact rounded-none ">
+                <figure class="p-4">
+                  <img
+                    src="./images/about-us.jpg"
+                    alt="" />
+                </figure>
+                <div class="card-body">
+                  <h2 class="card-title text-blue-400">Bachelor of Science in Nursing (BSN)</h2>
+                  <p class="text-gray-400">Our BSN program is designed for individuals passionate about making a difference in healthcare. </p>
+                 
+                </div>
+              </div>
+              <div class="card card-compact  rounded-none ">
+                <figure class="p-4">
+                  <img
+                    src="./images/1.jpg"
+                    alt="" />
+                </figure>
+                <div class="card-body">
+                  <h2 class="card-title text-blue-400">Master of Science in Nursing (MSN)</h2>
+                  <p class="text-gray-400">Take your nursing career to the next level with our MSN program and Nurse Administrator.</p>
+                  
+                </div>
+              </div>
+              <div class="card card-compact rounded-none ">
+                <figure class="p-4">
+                  <img
+                    src="./images/3.jpg"
+                    alt="" />
+                </figure>
+                <div class="card-body">
+                  <h2 class="card-title text-blue-400">Doctor of Nursing Practice (DNP)</h2>
+                  <p class="text-gray-400">Already a registered nurse? Advance your career with our RN to BSN program.</p>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </section>
+
+        <!-- Admission -->
+        <section id="admissions" class="  bg-blue-50 py-1">
+          <div class="container mx-auto  px-8 lg:px-24 my-16">
+              
+              <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                  <!-- How to Apply -->
+                  <div class=" text-gray-400 space-y-6 rounded-lg ">
+                      <h3 class="text-3xl font-bold text-blue-900 mb-4">Admissions <span class="text-blue-400">Process</span></h3>
+                      <ul class="list-disc list-inside space-y-4 ">
+                          <li>Fill out the online application</li>
+                          <li>Submit your transcripts</li>
+                          <li>Provide letters of recommendation</li>
+                          <li>Write a personal statement</li>
+                          <li>Complete an interview </li>
+                      </ul>
+                      <a href="#" class="inline-block mt-4 bg-blue-600 text-white px-6 py-3 font-bold">Apply Now</a>
+                  </div>
+      
+                  <!-- Key Deadlines -->
+                  <div class="bg-white  ">
+                      
+                  </div>
+              </div>
+          </div>
+      </section>
+      
      
     </main>
     <footer>
