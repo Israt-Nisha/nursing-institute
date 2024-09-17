@@ -86,7 +86,7 @@
         <div class="hero-overlay bg-opacity-40"></div>
         <div class=" text-white text-center">
           <div class="max-w-md">
-            <h1 class=" text-5xl font-bold text-white">Helene <span class="text-blue-400">Fuld</span></h1>
+            <h1 class=" text-5xl font-extrabold text-white">Helene <span class="text-blue-400">Fuld</span></h1>
             <h4 class="text-lg font-bold text-white">Where Caring Meets Education</h4>
             <p class="my-3">
               Providing comprehensive education and hands-on training to prepare you for success
@@ -99,7 +99,7 @@
     </header>
     <main>
       <!-- About  -->
-       <section id="about" class="container mx-auto px-8 lg:px-24 my-16">
+       <section id="about" class="container mx-auto px-8 lg:px-24 my-24">
         <div class="flex flex-col lg:flex-row items-center gap-8">
           <div class="flex-1">
             <img  src="./images/about-us2.jpg" alt="">
@@ -115,9 +115,9 @@
        </section>
 
        <!-- Programs -->
-        <section id="programs"  class="">
+        <section id="programs"  class="bg-blue-50 py-1">
           <div class="container mx-auto px-8 lg:px-24 my-16">
-            <div class="text-center mb-4">
+            <div class="text-center my-4">
               <h3 class="text-3xl font-bold text-blue-900 "></span>Our <span class="text-blue-400">Programs</span></h3>
             </div>
             <div class="grid grid-rows-1 lg:grid-cols-3 gap-4">
@@ -163,12 +163,12 @@
         </section>
 
         <!-- Admission -->
-        <section id="admissions" class="  bg-blue-50 py-1">
-          <div class="container mx-auto  px-8 lg:px-24 my-16">
+        <section id="admissions" class="">
+          <div class="container mx-auto  px-8 lg:px-24 my-24 ">
               
-              <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+              <div class="flex flex-col lg:flex-row items-center gap-8">
                   <!-- How to Apply -->
-                  <div class=" text-gray-400 space-y-6 rounded-lg ">
+                  <div class="flex-1 text-gray-400 space-y-6  ">
                       <h3 class="text-3xl font-bold text-blue-900 mb-4">Admissions <span class="text-blue-400">Process</span></h3>
                       <ul class="list-disc list-inside space-y-4 ">
                           <li>Fill out the online application</li>
@@ -181,17 +181,72 @@
                   </div>
       
                   <!-- Key Deadlines -->
-                  <div class="bg-white  ">
-                      
+                  <div class="flex-1  ">
+                      <img class="" src="./images/6.jpg" alt="">
                   </div>
               </div>
           </div>
       </section>
+
+      <!-- contact -->
+       <section id="contact" class="bg-blue-50 py-2">
+          <div class="container mx-auto px-8 lg:px-24 mb-8">
+            <div class="text-center my-8">
+              <h3 class="text-3xl font-bold text-blue-900 "></span>Contact <span class="text-blue-400">Us</span></h3>
+            </div>
+            <div class=" grid grid-cols-2 gap-5">
+              <input type="text" placeholder="Name" class="input w-full rounded-none  shadow-lg" />
+              <input type="text" placeholder="Email" class="input w-full rounded-none  shadow-lg" />
+              <input type="text" placeholder="Phone Number" class="input w-full rounded-none shadow-lg" />
+              <input type="text" placeholder="Subject" class="input w-full rounded-none shadow-lg" />
+              <textarea class="textarea col-span-2 rounded-none shadow-lg" placeholder="Message"></textarea>
+              
+           </div>
+           <div class="text-center ">
+           <a href="#" class="inline-block mt-6 mb-4 bg-blue-600 text-white px-6 py-3 font-bold">Submit</a>
+
+           </div>
+          </div>
+       </section>
       
      
     </main>
-    <footer>
-
-    </footer>
+    <!-- footer -->
+    <div class="bg-blue-950 text-gray-300 py-2">
+      <footer class="footer container mx-auto  px-8 lg:px-24 my-16">
+        <aside>
+          <h1 class=" text-2xl font-extrabold text-blue-400">Helene <span class="text-white">Fuld</span></h1>
+          <p>
+            Join our accredited nursing 
+            <br />
+             Build a rewarding career in healthcare
+            
+          
+          </p>
+        </aside>
+        <nav>
+          <h6 class="text-lg font-semibold text-white">SERVICES</h6>
+          <a class="link link-hover">BSN</a>
+          <a class="link link-hover">MSN</a>
+          <a class="link link-hover">DNP</a>
+      
+        </nav>
+        <nav>
+          <h6 class="text-lg font-semibold text-white">COMPANY</h6>
+          <a href="#about" class="link link-hover">About us</a>
+          <a href="#programs" class="link link-hover">Programs</a>
+          <a href="#admissions" class="link link-hover">Admissions</a>
+          <a href="#contact" class="link link-hover">Contact us</a>
+         
+        </nav>
+        <nav>
+          <h6 class="text-lg font-semibold text-white">LEGAL</h6>
+          <a class="link link-hover">Terms of use</a>
+          <a class="link link-hover">Privacy policy</a>
+          <a class="link link-hover">Cookie policy</a>
+        </nav>
+      
+      </footer>
+    </div>
 </body>
 </html>
